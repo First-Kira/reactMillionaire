@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#quiz {
+    margin-top: 20px;
+}
+
+#answers {
+    margin: 20px 0;
+}
+
+.answer {
+    display: block;
+    margin: 5px 0;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
